@@ -25,10 +25,13 @@ application:
     #远程订阅规则 （！使用前请删除下方示例配置, 注意缩进）
     remote:
       - path: 'https://codeberg.org/hagezi/mirror2/raw/branch/main/dns-blocklists/adblock/doh-vpn-proxy-bypass.txt' #必要参数: 规则url，仅支持 http/https，不限定响应内容格式
-
-      - name: 'Subscription 2'
-        path: 'https://github.boki.moe/https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-ips.txt'
-
+      - path: "https://big.oisd.nl"
+      - path: "https://adrules.top/dns.txt"
+      - path: "https://raw.githubusercontent.com/YujiaCheng1996/adblockfilters/main/rules/adblockdns.txt"
+      - path: "https://raw.githubusercontent.com/qq5460168/666/refs/heads/master/dns.txt"
+      - path: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-ips.txt"
+      - path: "https://codeberg.org/hagezi/mirror2/raw/branch/main/dns-blocklists/adblock/doh-vpn-proxy-bypass.txt"
+      - path: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-adguard.txt"
   #输出配置
   output:
     #文件头配置，将自动作为注释添加至每个规则文件开始
