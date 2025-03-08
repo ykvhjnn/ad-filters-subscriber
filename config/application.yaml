@@ -28,10 +28,13 @@ application:
       - path: "https://big.oisd.nl"
       - path: "https://adrules.top/dns.txt"
       - path: "https://raw.githubusercontent.com/YujiaCheng1996/adblockfilters/main/rules/adblockdns.txt"
+      - path: "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt"
       - path: "https://raw.githubusercontent.com/qq5460168/666/refs/heads/master/dns.txt"
       - path: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-ips.txt"
       - path: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt"
-      - path: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-adguard.txt"
+      - path: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-clash.yaml"
+        type: clash
+      
   #输出配置
   output:
     #文件头配置，将自动作为注释添加至每个规则文件开始
