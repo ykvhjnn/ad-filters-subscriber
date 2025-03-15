@@ -26,7 +26,7 @@ application:
     remote:
       - path: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt"
       #- path: "https://big.oisd.nl"
-      #- path: "https://adrules.top/dns.txt"
+      - path: "https://adrules.top/dns.txt"
       #- path: "https://raw.githubusercontent.com/YujiaCheng1996/adblockfilters/main/rules/adblockdns.txt"
       #- path: "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt"
       #- path: "https://raw.githubusercontent.com/qq5460168/666/refs/heads/master/dns.txt"
