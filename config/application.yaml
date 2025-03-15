@@ -25,13 +25,13 @@ application:
     #远程订阅规则 （！使用前请删除下方示例配置, 注意缩进）
     remote:
       - path: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt"
-      - path: "https://big.oisd.nl"
-      - path: "https://adrules.top/dns.txt"
+      #- path: "https://big.oisd.nl"
+      #- path: "https://adrules.top/dns.txt"
       #- path: "https://raw.githubusercontent.com/YujiaCheng1996/adblockfilters/main/rules/adblockdns.txt"
       #- path: "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt"
       #- path: "https://raw.githubusercontent.com/qq5460168/666/refs/heads/master/dns.txt"
-      - path: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-ips.txt"
-      - path: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt"
+      #- path: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-ips.txt"
+      #- path: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt"
       #- path: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-clash.yaml"
       
   #输出配置
