@@ -32,8 +32,7 @@ application:
       - path: "https://raw.githubusercontent.com/qq5460168/666/refs/heads/master/dns.txt"
       - path: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-ips.txt"
       - path: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt"
-      - path: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-clash.yaml"
-        type: clash
+      #- path: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-clash.yaml"
       
   #输出配置
   output:
